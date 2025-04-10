@@ -123,14 +123,6 @@ class _Screen2State extends State<Screen2> with SingleTickerProviderStateMixin {
           ),
         ],
       ),
-      floatingActionButton: _tabController.index == 0
-          ? FloatingActionButton(
-              onPressed: incrementCounter,
-              tooltip: 'Increment',
-              backgroundColor: Colors.orange,
-              child: const Icon(Icons.add),
-            )
-          : null,
     );
   }
 }
