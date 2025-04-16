@@ -22,6 +22,7 @@ class _Screen2State extends State<Screen2> {
     Colors.pink[100]!,
     Colors.yellow[100]!,
     Colors.purple[100]!,
+    Colors.orange[100]!,
   ];
 
   void _sendMessage() {
